@@ -1,0 +1,16 @@
+﻿<Window x:Class="radioButton.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:radioButton"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="200" Width="300">
+    <Grid>
+        <Label x:Name="lblSexo" Content="Selecione o Sexo:" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top"/>
+        <RadioButton x:Name="rdbMasculino" Content="Masculino" HorizontalAlignment="Left" Margin="10,40,0,0" VerticalAlignment="Top"/>
+        <RadioButton x:Name="rdbFeminino" Content="Feminino" HorizontalAlignment="Left" Margin="10,60,0,0" VerticalAlignment="Top"/>
+        <Button x:Name="btnChecar" Content="Verificar Sexo" HorizontalAlignment="Left" Margin="10,92,0,0" VerticalAlignment="Top" Width="102" Click="btnChecar_Click"/>
+
+    </Grid>
+</Window>
